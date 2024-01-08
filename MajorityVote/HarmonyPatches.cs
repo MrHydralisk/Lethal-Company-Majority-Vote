@@ -44,7 +44,7 @@ namespace MajorityVote
         {
             if (Config.mVoteEnabled?.Value ?? true)
             {
-                return (int)MathF.Max(MathF.Round((StartOfRound.Instance.connectedPlayersAmount + 1) * (Config.mVotePercent?.Value ?? 0.5f)), 1);
+                return Math.Max(Math.Min((int)MathF.Round((StartOfRound.Instance.connectedPlayersAmount + 1) * (Config.mVotePercent?.Value ?? 0.5f)), Math.Min(StartOfRound.Instance.connectedPlayersAmount, Config.mVoteMax?.Value ?? 31)), Math.Max(1, Config.mVoteMin?.Value ?? 1));
             }
             else
             {
