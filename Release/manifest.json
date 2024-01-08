@@ -1,0 +1,9 @@
+{
+    "name": "MajorityVote",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/MrHydralisk/Lethal-Company-Majority-Vote",
+    "description": "Mod for Lethal Company, that allow adjusting percentage of votes required for the ship to leave",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}
