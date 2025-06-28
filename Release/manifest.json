@@ -1,6 +1,6 @@
 {
     "name": "MajorityVote",
-    "version_number": "1.1.0",
+    "version_number": "1.1.1",
     "website_url": "https://github.com/MrHydralisk/Lethal-Company-Majority-Vote",
     "description": "Mod for Lethal Company, that allow adjusting percentage of votes required for the ship to leave",
     "dependencies": [
